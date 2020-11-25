@@ -1,7 +1,7 @@
 FROM python:latest
 
 #  make a dir for app to run
-WORKDIR /Docker-python
+WORKDIR /app
 
 # install dependencies 
 COPY requirements.txt .
